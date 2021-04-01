@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Kalam:wght@300&family=Kaushan+Script&family=Merienda&display=swap");
+:root {
+  --Akaya: 'Akaya Telivigala', cursive;
+  --Kalam: 'Kalam', cursive;
+  --Kaushan: 'Kaushan Script', cursive;
+  --Merinda: 'Merienda', cursive;
+}
+
+.navDiv {
+  background-color: #75cfb8;
+  height: 8rem;
+}
+
+.navDiv .navbar-brand {
+  font-size: 3rem;
+  color: #0a043c;
+  font-family: var(--Kalam);
+  font-weight: 700;
+}
+
+.navDiv .navbar-brand:hover {
+  color: #f875aa;
+}
+
+.navDiv .navbar-nav {
+  list-style: none;
+}
+
+.navDiv .navbar-nav .nav-item .nav-link {
+  font-size: 2rem;
+  color: #00917c;
+  font-family: var(--Kaushan);
+  text-decoration: none;
+}
+
+.navDiv .navbar-nav .nav-item .nav-link:hover {
+  color: #f4f9f9;
+}
+
+.mainDiv {
+  width: 100vw;
+  height: 91vh;
+  background: url("../images/nat.jpg") center no-repeat;
+  background-size: 100% 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.mainDiv .noteDiv {
+  width: 40vw;
+  height: 50vh;
+  text-align: center;
+  border: .4rem solid #78c4d4;
+  border-radius: 3rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.mainDiv .form-label {
+  font-size: 2rem;
+  font-family: var(--Kaushan);
+  color: #03506f;
+}
+
+.mainDiv .form-control {
+  width: 40rem;
+  height: 3.9rem;
+  border: .1rem solid #0f1123;
+  border-radius: 2rem;
+  outline: none;
+  text-align: center;
+  font-size: 1.7rem;
+  font-family: var(--Merinda);
+}
+
+.mainDiv .btn {
+  width: 12rem;
+  height: 3.3rem;
+  background-color: #00917c;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.9rem;
+  font-family: var(--Kalam);
+  color: whitesmoke;
+}
+
+.mainDiv .btn:hover {
+  color: black;
+  background-color: #e7d9ea;
+  -webkit-transition: all ease-in-out .5s;
+  transition: all ease-in-out .5s;
+}
+
+.card {
+  height: 15rem;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: #cee6b4;
+  -webkit-box-shadow: 3px 2px 18px 3px rgba(0, 0, 0, 0.45);
+          box-shadow: 3px 2px 18px 3px rgba(0, 0, 0, 0.45);
+}
+
+.card .card-title {
+  font-size: 2rem;
+  font-family: var(--Kalam);
+  text-transform: uppercase;
+}
+
+.card .card-text {
+  font-size: 1.3rem;
+  font-family: var(--Merinda);
+}
+/*# sourceMappingURL=component.css.map */
